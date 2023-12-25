@@ -1,4 +1,4 @@
-# Text Alignment Project - University of St Andrews
+# Text Alignment
 
 ## Purpose
 This project demonstrates proficiency in object-oriented programming and Java. It involves reading a .txt file and aligning its content based on command line inputs, adhering to a specified maximum line length.

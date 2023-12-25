@@ -16,7 +16,7 @@ Run the program with the following command line arguments: '.txt file name' 'ali
 ## Triangle Alignment Feature
 The `triangleAlign` class introduces a unique alignment:
 - Outputs text in a right triangle shape.
-- Example Output:
+- Example Output:  
 ★  
 ★★  
 ★★★  

@@ -17,11 +17,11 @@ Run the program with the following command line arguments: '.txt file name' 'ali
 The `triangleAlign` class introduces a unique alignment:
 - Outputs text in a right triangle shape.
 - Example Output:
-'+'
-'++'
-'+++'
-'++++'
-'+++++'
++  
+++  
++++  
+++++  
++++++  
 - Use "triangle" as the alignment type. Note: Maximum line length is not utilized in this mode.
 - Example Command: java TextAlignment java.txt triangle 60
 

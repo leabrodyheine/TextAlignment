@@ -1,20 +1,29 @@
-The purpose of this project was to showcase my skills in object-oriented programming and Java. The project reads a .txt file and then depending on the command line input, aligns it correctly given the specified maximum line length.
-    Alignment types are:
-    - left
-    - right
-    - center
-    - justify
-    - triangle 
-The command line arguments are java TextAlignment '.txt file name' 'alignment type' then 'maximum line length'
-This project was completed at the University of St Andrews.
+# Text Alignment Project - University of St Andrews
 
+## Purpose
+This project demonstrates proficiency in object-oriented programming and Java. It involves reading a .txt file and aligning its content based on command line inputs, adhering to a specified maximum line length.
 
-The triangleAlign class contains a 5th alignment type that outputs the text as a right triangle. 
-EX:
+## Alignment Types
+- `left`
+- `right`
+- `center`
+- `justify`
+- `triangle`
+
+## Usage
+Run the program with the following command line arguments: '.txt file name' 'alignment type' then 'maximum line length'
+
+## Triangle Alignment Feature
+The `triangleAlign` class introduces a unique alignment:
+- Outputs text in a right triangle shape.
+- Example Output:
 *
 **
 ***
 ****
 *****
-To implement this feature just type "triangle" instead of left, right, justify, or center. It works with all 4 text files given but the maximum line length input won't be utilized for this to keep the triangle format as stable as possible. You still need to enter a valid 3rd argument in the command line however, it just won't affect the output. It is the same compiling as the other .java files: javac triangleAlign.java.
-EX command line: java TextAlignment java.txt triangle 60
+- Use "triangle" as the alignment type. Note: Maximum line length is not utilized in this mode.
+- Example Command: java TextAlignment java.txt triangle 60
+
+
+**Grade: First (17.5 or 87.5%) UK Grading Scale**
